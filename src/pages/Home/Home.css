@@ -62,7 +62,7 @@
 
 .tableLayout {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    grid-template-columns: 0.4fr 2fr 1fr 1fr 1.5fr;
     padding: 15px 20px;
     align-items: center;
     border-bottom: 1px solid #3c3c3c;
@@ -71,3 +71,29 @@
 .marketCap {
     text-align: right;
 }
+
+.tableLayout:last-child {
+    border-bottom: none;
+}
+
+.tableLayout div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.tableLayout div img {
+    width: 35px;
+}
+
+.tableLayout .green {
+    color: #00d515;
+    text-align: center;
+}
+
+.tableLayout .red {
+    color: #ff4646;
+    text-align: center;
+}
+
+@media
