@@ -45,7 +45,7 @@ const Coin = () => {
   useEffect(() => {
     fetchCoinData();
     fetchHistoricalData();
-  }, [coinId, currency])
+  }, [currency])
 
 
 if(coinData, historicalData) {
@@ -67,6 +67,10 @@ if(coinData, historicalData) {
           <ul>
             <li> Current Price </li>
             <li> {currency.symbol} {coinData.market_data.current_price[currency.name].toLocaleString()}</li>
+          </ul>
+          <ul>
+            <li> Market Cap </li>
+            <li> {currency.symbol} {coinData.market_data.market_cap[currency.name].toLocaleString()}</li>
           </ul>
         </div>
 
