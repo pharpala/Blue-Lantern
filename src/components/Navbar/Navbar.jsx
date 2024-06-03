@@ -49,9 +49,7 @@ const Navbar = () => {
       </Link>
         <ul>
             <Link to={'/'}><li> Home </li> </Link>
-            <li> Features </li>
-            <li> Pricing </li>
-            <li> Blog </li>
+            <Link to={'/contact-us'}><li> Contact us </li> </Link>
         </ul>
       
         <div className="nav-right">

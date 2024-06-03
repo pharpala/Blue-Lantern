@@ -1,0 +1,36 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center; 
+}
+
+.title {
+    margin: 20px;
+    font-size: 3em;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Removes underline from link */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.3em;
+    cursor: pointer;
+    background-color: rgb(47, 39, 151);
+    border-radius: 20px; 
+    color: white;
+    border: none;
+    outline: none; 
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: rgb(67, 59, 171); /* Darker color on hover */
+}
