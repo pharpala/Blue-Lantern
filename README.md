@@ -38,7 +38,7 @@ Welcome to Blue Lantern! This is a React web application that provides real-time
 
 ## Usage
 
-1. Open the application in your browser by clicking ![here](https://blue-lantern.vercel.app/).
+1. Open the application in your browser by clicking [here](https://blue-lantern.vercel.app/).
 2. Use the search bar to find information on a specific cryptocurrency.
 3. View detailed market analysis and price data.
 
