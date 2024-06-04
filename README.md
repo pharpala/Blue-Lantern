@@ -48,7 +48,7 @@ Here are some screenshots of the application in action :
 
 ### Video play
 
-![Action](public/short-display.mp4)
+https://github.com/pharpala/Blue-Lantern/assets/128100428/085b573f-3483-45df-8335-db9b54905389
 
 ### Home Screen
 
