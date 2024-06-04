@@ -5,7 +5,7 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 
-![Homescreen](public/homescreen.png)
+![Display](public/display.png)
 
 ## Table of Contents
 
@@ -48,7 +48,7 @@ Here are some screenshots of the application in action :
 
 ### Video play
 
-![Action](public/gameplay.mp4)
+![Action](public/short-display.mp4)
 
 ### Home Screen
 
